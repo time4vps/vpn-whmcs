@@ -20,7 +20,7 @@ This is Time4VPS VPN service provisioning module for WHMCS platform.
 To import Time4VPS VPN products:
 1. Navigate to `http://<your whmcs url>/modules/servers/time4vpn/update.php` as Admin;
 **Run it once, as every other request will reset any changes you made for existing Time4VPS products.**
-2. Save a product in product configuration window without making change.
+2. Save a product in product configuration window without making changes.
 
   
 ## License  
