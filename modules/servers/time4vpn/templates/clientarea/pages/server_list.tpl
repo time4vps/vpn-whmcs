@@ -71,9 +71,9 @@
                         <ul class="dropdown-menu">
                             <li class="dropdown-header">OpenVPN</li>
                             <li><a href="{$host_url}/?cmd=iv_vpn&amp;action=config&amp;template=ovpn_default&amp;id={$server['id']}">Default (UDP 1194)</a></li>
-                            <li><a href="{$host_url}/?cmd=iv_vpn&amp;action=config&amp;template=ovpn_4438&amp;id={$server['id']}">Alternative (TCP 443)</a></li>
+                            <li><a href="{$host_url}/?cmd=iv_vpn&amp;action=config&amp;template=ovpn_443&amp;id={$server['id']}">Alternative (TCP 443)</a></li>
                             <li class="dropdown-header">Windows RAS</li>
-                            <li><a href="{$host_url}/?cmd=iv_vpn&amp;action=config&amp;template=pbk_default&amp;id={$server['id']}23">PBK File</a></li>
+                            <li><a href="{$host_url}/?cmd=iv_vpn&amp;action=config&amp;template=pbk_default&amp;id={$server['id']}">PBK File</a></li>
                         </ul>
                     </div>
                 </td>
