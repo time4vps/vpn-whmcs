@@ -1,0 +1,25 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "time4vpn",
+  "license": "proprietary",
+  "category": "vpn",
+  "description": {
+    "name": "time4vpn",
+    "tagline": "",
+    "short": "",
+    "long": ""
+  },
+  "support": {
+    "homepage": "https:\/\/www.time4vps.com",
+    "learn_more": "",
+    "support_url": "https:\/\/www.time4vps.com\/knowledgebase\/",
+    "docs_url": ""
+  },
+  "authors": [
+    {
+      "name": "time4vpn",
+      "homepage": "https:\/\/www.time4vps.com"
+    }
+  ]
+}
