@@ -94,7 +94,7 @@ function time4vpn_ClientAreaPasswordReset($params)
         $error =  time4vpn_ResetPassword($params);
         if (isset($error['password'])) {
             time4vpn_MarkServerDetailsObsolete($params);
-            time4vpn_Redirect(vpn_ActionLink($params, 'PasswordReset&newpassword=' . $error['password']));
+            time4vpn_Redirect(time4vpn_ActionLink($params, 'PasswordReset&newpassword=' . $error['password'].'&modop=custom'));
         }
     }
 
