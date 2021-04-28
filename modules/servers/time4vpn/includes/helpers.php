@@ -104,6 +104,8 @@ function time4vpn_BillingCycle($cycle)
             return 'a';
         case 'Biennially':
             return 'b';
+        case 'Triennially':
+            return 'a';
     }
 
     return null;
