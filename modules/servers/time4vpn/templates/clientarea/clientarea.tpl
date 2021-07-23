@@ -19,7 +19,7 @@
             </tr>
             <tr>
                 <td width="200">Pre-shared Key</td>
-                <td><code>VPN</code></td>
+                <td><code>Time4vps</code></td>
             </tr>
             {if $usage_history}
             <tr>
