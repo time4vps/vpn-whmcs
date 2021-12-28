@@ -64,6 +64,16 @@
                 </a>
             </div>
             {/if}
+            {if $download_links[2]['name']=='iOSVPN' &&  $download_links[2]['url'] != ''}
+            <div class="download-col col-sm-4">
+                <p>
+                    <strong>iOS</strong>
+                </p>
+                <a href="{$download_links[2]['url']}" target="_blank">
+                    <img src="https://billing.time4vps.com/includes/modules/Hosting/iv_vpn/assets/img/dl_ios.png" style="width: 200px;" alt="Download for iOS">
+                </a>
+            </div>
+            {/if}
             <div class="download-col col-sm-4">
                 <p>
                     <strong>Debian / Ubuntu</strong>
